@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:widgets_app/config/theme/app_theme.dart';
+
 
 class ButtonsScreen extends StatelessWidget {
   const ButtonsScreen({super.key});
@@ -22,6 +22,7 @@ class ButtonsScreen extends StatelessWidget {
   }
 }
 
+// ignore: camel_case_types
 class _buttonsViews extends StatelessWidget {
   const _buttonsViews();
 
@@ -73,6 +74,7 @@ class _buttonsViews extends StatelessWidget {
   }
 }
 
+// ignore: camel_case_types
 class customButtons extends StatelessWidget {
   
   const customButtons({super.key});
