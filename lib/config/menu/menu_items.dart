@@ -25,5 +25,42 @@ const appMenuItems = <MenuItem>[
       title: 'Tarjetas', 
       subTitle: 'Contenedor estilizado', 
       link: '/cards', 
-      icon: Icons.credit_card)
+      icon: Icons.credit_card),
+
+      MenuItem(
+      title: 'Animated', 
+      subTitle: '', 
+      link: '/animated', 
+      icon: Icons.animation),
+
+      MenuItem(
+      title: 'App Tutorial', 
+      subTitle: '', 
+      link: '/AppTutorial', 
+      icon: Icons.boy),
+
+      MenuItem(
+      title: 'Infinite Scroll', 
+      subTitle: '', 
+      link: '/InfiniteScroll', 
+      icon: Icons.info),
+
+      MenuItem(
+      title: 'Progress', 
+      subTitle: 'Generales y Controlados', 
+      link: '/Progress', 
+      icon: Icons.refresh_rounded),
+
+      MenuItem(
+      title: 'Snack Bar', 
+      subTitle: 'Indicadores de pantalla', 
+      link: '/SnackBar', 
+      icon: Icons.bar_chart),
+
+      MenuItem(
+      title: 'Ui Control', 
+      subTitle: '', 
+      link: '/UiControl', 
+      icon: Icons.control_point),
+
 ];
